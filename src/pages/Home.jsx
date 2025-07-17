@@ -556,17 +556,20 @@ export default function Home() {
           <h1 className="mb-5">How You Use Our System</h1>
           <div className="mb-5 d-flex justify-content-center" style={{transform: 'translateX(30px)'}}>
             <div style={{maxWidth: '700px', width: '100%'}}>
-              <video
-                controls
+              <iframe
+                src="https://drive.google.com/file/d/1-juYkEbxyc0ZTRrAgK-aLo9qF9gWRs1K/preview"
+                width="100%"
+                height="400"
+                allow="autoplay"
                 style={{
-                  width: '100%',
                   borderRadius: '12px',
-                  boxShadow: '0 0.5rem 1rem rgba(0,0,0,0.08)'
+                  boxShadow: '0 0.5rem 1rem rgba(0,0,0,0.08)',
+                  width: '100%',
+                  minHeight: 300,
+                  border: 'none'
                 }}
-              >
-                <source src="/assets/videos/GTG Booking - Google Chrome 2025-07-13 15-19-36.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+                title="How You Use Our System Video"
+              />
             </div>
           </div>
         </div>
